@@ -5,7 +5,7 @@
           vmImage: 'ubuntu-latest' # set to windows-latest or another Windows vmImage for Windows builds
 
         variables:
-          imageName: 'pipelines-javascript-docker'
+          imageName: 'lemur'
 
         steps:
         - task: Docker@2
